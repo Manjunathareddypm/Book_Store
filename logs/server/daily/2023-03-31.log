@@ -1,0 +1,542 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T09:56:15.995Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T09:56:16.130Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at parse (D:\Book_Store\bookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-31T09:58:45.029Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at parse (D:\Book_Store\bookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:00:32.262Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at parse (D:\Book_Store\bookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:00:56.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:13:33.597Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:13:33.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:15:58.438Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:15:58.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:19:19.184Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:19:19.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:19:27.799Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:19:27.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:19:32.399Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:19:32.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:20:02.015Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:20:02.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:20:37.390Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:20:37.406Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bookService is not defined
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:49)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:21:01.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:22:42.426Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:22:42.443Z"}
+error: 
+    status - 500 
+    message - TypeError: bookService.getAllbooks is not a function
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:12:36)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:22:48.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:25:40.175Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:25:40.191Z"}
+error: 
+    status - 500 
+    message - TypeError: bookService.getAllbooks is not a function
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:12:36)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:25:47.790Z"}
+error: 
+    status - 500 
+    message - TypeError: bookService.getAllbooks is not a function
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:12:36)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:25:50.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:26:01.513Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:26:01.529Z"}
+error: 
+    status - 500 
+    message - TypeError: bookService.getAllbooks is not a function
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:12:36)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:26:09.715Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:26:50.362Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:26:50.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:27:49.063Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:27:49.080Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userID')
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:12:57)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:27:54.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:29:43.815Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:29:43.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:30:52.185Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:30:52.201Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userID')
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:12:57)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:30:58.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:32:05.549Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:32:05.565Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userID')
+    at _callee$ (D:\Book_Store\bookStore\src\controllers\/book.controller.js:12:57)
+    at tryCatch (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Book_Store\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllBooks (D:\Book_Store\bookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Book_Store\bookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Book_Store\bookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store\bookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-31T10:32:11.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:33:05.655Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:33:05.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:33:36.642Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:33:36.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:34:25.479Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:34:25.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:35:41.544Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:35:41.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:38:56.477Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:38:56.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:40:53.370Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:40:53.396Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:43:16.914Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:43:16.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:50:46.106Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:50:46.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:57:00.373Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:57:00.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T10:58:57.627Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T10:58:57.698Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T11:01:13.798Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T11:01:13.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T11:03:27.069Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T11:03:27.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T11:06:15.517Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T11:06:15.598Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T11:07:23.762Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T11:07:23.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T11:10:52.301Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T11:10:52.396Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-31T13:28:36.267Z"}
+info: Connected to the database. {"timestamp":"2023-03-31T13:28:36.459Z"}
