@@ -78,3 +78,121 @@ info: ::1 - - [03/Apr/2023:14:05:25 +0000] "GET /api/v1/cart HTTP/1.1" 200 389 "
 
 info: ::1 - - [03/Apr/2023:14:08:24 +0000] "GET /api/v1/cart HTTP/1.1" 200 389 "-" "PostmanRuntime/7.31.3"
 
+info: ::1 - - [03/Apr/2023:15:27:12 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 75 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:28:51 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:29:13 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:29:29 +0000] "GET /api/v1/wishlist/add_book/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:29:36 +0000] "POST /api/v1/wishlist/add_book/6214803b05253301a4fda584 HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:35:00 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:35:57 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:38:37 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 75 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:40:12 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 75 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:40:28 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:43:11 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:47:24 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:48:15 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:50:10 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 201 375 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:50:23 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:51:50 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" - - "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:52:46 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 392 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:52:51 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 392 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:53:45 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" - - "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:56:24 +0000] "POST /api/v1/wishlist/add_book/621588f105253301a4fda5d0 HTTP/1.1" - - "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:15:56:26 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 392 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:04:48 +0000] "POST /api/v1/wishlist/addBook/6215890d05253301a4fda5d1 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:05:19 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 552 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:07:58 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 552 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:09:21 +0000] "POST /api/v1/wishlist/addBook/6215890d05253301a4fda5d1 HTTP/1.1" - - "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:10:07 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:11:25 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:11:31 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:11:41 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:12:44 +0000] "POST /api/v1/users HTTP/1.1" 500 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:12:52 +0000] "POST /api/v1/users HTTP/1.1" 500 59 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:12:59 +0000] "POST /api/v1/users HTTP/1.1" 500 59 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:13:10 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:13:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 487 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:16:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 487 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:17:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 250 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:18:45 +0000] "POST /api/v1/wishlist/addBook/6215892405253301a4fda5d2 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:21:23 +0000] "POST /api/v1/wishlist/addBook/6215892405253301a4fda5d2 HTTP/1.1" - - "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:24:24 +0000] "GET /api/v1/cart HTTP/1.1" 200 389 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:28:06 +0000] "GET /api/v1/cart HTTP/1.1" 200 389 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:29:09 +0000] "GET /api/v1/cart HTTP/1.1" 200 389 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:29:18 +0000] "POST /api/v1/cart/addBook/6215892405253301a4fda5d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:29:31 +0000] "POST /api/v1/wishlist/addBook/6215892405253301a4fda5d2 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:30:47 +0000] "POST /api/v1/wishlist/addBook/6215892405253301a4fda5d2 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:34:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 250 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:35:05 +0000] "POST /api/v1/wishlist/addBook/6215893e05253301a4fda5d3 HTTP/1.1" 201 413 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:35:36 +0000] "POST /api/v1/wishlist/addBook/6215893e05253301a4fda5d3 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:37:29 +0000] "POST /api/v1/wishlist/addBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 44 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:44:20 +0000] "POST /api/v1/cart/add_book/6215893e05253301a4fda5d3 HTTP/1.1" 201 442 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:44:39 +0000] "POST /api/v1/cart/add_book/6215893e05253301a4fda5d3 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:45:59 +0000] "POST /api/v1/cart/add_book/6215893e05253301a4fda5d3 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:46:42 +0000] "POST /api/v1/cart/add_book/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:46:57 +0000] "GET /api/v1/cart HTTP/1.1" 200 618 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:58:29 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 79 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:58:47 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:59:08 +0000] "GET /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:16:59:14 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 79 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:17:00:04 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 200 90 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:17:00:08 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
