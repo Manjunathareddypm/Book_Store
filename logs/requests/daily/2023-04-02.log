@@ -1,0 +1,66 @@
+info: ::1 - - [02/Apr/2023:13:28:08 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:28:20 +0000] "GET /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 200 1339 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:30:17 +0000] "GET /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:30:43 +0000] "POST /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 400 79 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:31:03 +0000] "POST /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 400 79 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:33:46 +0000] "POST /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 201 1112 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:34:01 +0000] "POST /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:34:09 +0000] "POST /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:13:34:10 +0000] "POST /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:14:44:14 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 1113 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:42:08 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 1113 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:48:11 +0000] "GET /api/v1/cart HTTP/1.1" 200 1113 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:54:57 +0000] "GET /api/v1/cart/remove_book/6429843a91749f73b4d35ed6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:55:06 +0000] "POST /api/v1/cart/remove_book/6429843a91749f73b4d35ed6 HTTP/1.1" 400 79 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:56:30 +0000] "POST /api/v1/cart/remove_book/6429843a91749f73b4d35ed6 HTTP/1.1" 400 46 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:56:48 +0000] "POST /api/v1/cart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:56:55 +0000] "GET /api/v1/cart HTTP/1.1" 200 1113 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:57:11 +0000] "GET /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:57:23 +0000] "POST /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:57:40 +0000] "POST /api/v1/cart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:57:46 +0000] "GET /api/v1/cart HTTP/1.1" 200 1113 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:59:09 +0000] "POST /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:59:33 +0000] "GET /api/v1/cart HTTP/1.1" 200 1113 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:17:59:56 +0000] "GET /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:00:03 +0000] "POST /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:00:06 +0000] "POST /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:00:15 +0000] "POST /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:00:34 +0000] "POST /api/v1/cart/add_book/6214803b05253301a4fda584 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:00:46 +0000] "POST /api/v1/cart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:00:52 +0000] "GET /api/v1/cart HTTP/1.1" 200 1112 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:01:14 +0000] "POST /api/v1/cart/remove_book/6214803b05253301a4fda584 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:01:23 +0000] "POST /api/v1/cart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [02/Apr/2023:18:01:30 +0000] "GET /api/v1/cart HTTP/1.1" 200 223 "-" "PostmanRuntime/7.31.3"
+
