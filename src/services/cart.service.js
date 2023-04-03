@@ -40,6 +40,7 @@ export const addBookToCart = async (userId, _Id) => {
   if (bookExists) {
     const bookObj = {};
     bookObj['books.' + i + '.quantity'] = 1;
+    bookObj['books.' + i + '.price'] = book.price;
     bookObj['cartTotal'] = book.price;
 
     newCart = Cart.updateOne({ _id: cart._id }, { $inc: bookObj });
@@ -55,7 +56,7 @@ export const addBookToCart = async (userId, _Id) => {
             author: book.author,
             quantity: 1,
             price: book.price,
-              Total: price * quantity
+            
           }
         },
         $inc: {

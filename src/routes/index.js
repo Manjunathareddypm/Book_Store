@@ -2,6 +2,7 @@ import express from 'express';
 const router = express.Router();
 import bookRoute from './book.route';
 import cartRoute from './cart.route';
+import wishlistRoute from './wishlist.route';
 
 import userRoute from './user.route';
 /**
@@ -18,6 +19,8 @@ const routes = () => {
   router.use('/books', bookRoute);
 
   router.use('/cart', cartRoute);
+
+  router.use('/wishlist', wishlistRoute);
 
   return router;
 };

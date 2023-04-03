@@ -38,10 +38,12 @@ export const userLogin = async (body) => {
   if(data){
     const pswd = await bcrypt.compare(body.password, data.password);
     if (pswd) {
-     token=jwt.sign({EmailId:data.EmailId, id:data._id},
-      process.env.SECRET_KEY);
-      data.token = token
-      return data
+      const token = jwt.sign(
+        { email: data.email,  _id: data._id },
+        process.env.SECRET_KEY
+      );
+      // data.token = token
+      return token
       } else {
         throw new Error('incorrect password ');
       }
@@ -50,38 +52,4 @@ export const userLogin = async (body) => {
     }
   };
   
-  // user forget password
-
-  // export const forgetPwd = async (body) => {
-  //   var token;
-  //   const data = await User.findOne({email: body.email})
-  //   console.log(data);
-  //     if(data !== null){
-  //      token=jwt.sign({id:data._id, email:data.email },
-  //       process.env.SECRET_KEY);
-  //       util.sendMail(body.email);
-  //       data.token = token
-  //       return data
-  //       } else {
-  //        console.log('invalid email');
-  //       }
-  //   };
-
-    
-
-  //   // user forget password
-
-  // export const resetPwd = async (body) => {
-  //   const saltRounds = 10;
-  //   const hashpassword = await bcrypt.hash(body.password, saltRounds);
-  //   body.password = hashpassword;
-  //   const data = await User.findOneAndUpdate(
-  //     {email:body.email},
-  //     body,
-  //     {
-  //       new: true
-  //     }
-  //   )
-  //   return data
-
-  //   }
+  
