@@ -810,3 +810,31 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2023-04-04T09:04:29.556Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-04-04T15:20:47.942Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T15:22:41.488Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "PM" fails to match the required pattern: /^[a-z[A-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T15:24:11.675Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "pm" fails to match the required pattern: /^[a-z[A-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T15:24:19.687Z"}

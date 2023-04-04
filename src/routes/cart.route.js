@@ -13,6 +13,9 @@ router.post('/addBook/:_Id', userAuth, cartController.addBookToCart);
 //route to remove book from cart
 router.post('/removeBook/:_Id',userAuth,cartController.removeBookFromCart);
 
+//route to purchase cart books
+router.post('/purchase/:_id', userAuth, cartController.purchaseBookById);
+
 
 
 
