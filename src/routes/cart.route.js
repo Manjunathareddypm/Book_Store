@@ -11,7 +11,9 @@ router.get('', userAuth, cartController.getBookFromCart);
 router.post('/addBook/:_Id', userAuth, cartController.addBookToCart); 
 
 //route to remove book from cart
-router.post('/removeBook/:_Id',userAuth,cartController.removeBookFromCart) 
+router.post('/removeBook/:_Id',userAuth,cartController.removeBookFromCart);
+
+
 
 
 export default router;

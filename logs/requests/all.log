@@ -460,3 +460,186 @@ info: ::1 - - [03/Apr/2023:17:00:04 +0000] "POST /api/v1/wishlist/removeBook/621
 
 info: ::1 - - [03/Apr/2023:17:00:08 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
 
+info: ::1 - - [03/Apr/2023:17:23:12 +0000] "GET /api/v1/cart HTTP/1.1" 200 618 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:17:31:05 +0000] "POST /api/v1/cart/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:17:31:22 +0000] "GET /api/v1/cart HTTP/1.1" 200 617 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:52:56 +0000] "GET /api/v1/cart HTTP/1.1" 200 617 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:54:02 +0000] "POST /api/v1/cart/removeBook/6215893e05253301a4fda5d3%0A HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:55:07 +0000] "GET /api/v1/cart%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:55:16 +0000] "GET /api/v1/cart%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:55:17 +0000] "GET /api/v1/cart%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:55:23 +0000] "GET /api/v1/cart/%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:56:00 +0000] "GET /api/v1/cart%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:02:59:55 +0000] "GET /api/v1/cart%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:00:04 +0000] "GET /api/v1/cart/%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:01:08 +0000] "GET /api/v1/cart HTTP/1.1" 200 617 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:03:00 +0000] "GET /api/v1/cart/addBook/6215892405253301a4fda5d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:03:07 +0000] "POST /api/v1/cart/addBook/6215892405253301a4fda5d2 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:03:20 +0000] "POST /api/v1/cart/removeBook/6215892405253301a4fda5d2 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:03:41 +0000] "GET /api/v1/cart HTTP/1.1" 200 617 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:14:46 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 262 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:15:00 +0000] "POST /api/v1/wishlist/addBook/6215893e05253301a4fda5d3 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:15:06 +0000] "POST /api/v1/wishlist/addBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 44 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:15:58 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 200 90 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:16:02 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:18:04 +0000] "GET /api/v1/wishlist HTTP/1.1" 201 262 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:18:22 +0000] "GET /api/v1/wishlist/addBook/6215893e05253301a4fda5d3 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:03:18:29 +0000] "POST /api/v1/wishlist/addBook/6215893e05253301a4fda5d3 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Book_Store\bookStore\src\routes\/index.js:26:10)
+    at Object.<anonymous> (D:\Book_Store\bookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\Book_Store\bookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\Book_Store\bookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Apr 04 2023 13:42:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":20318.046},"process":{"argv":["node","D:\\Book_Store\\bookStore\\src\\index.js"],"cwd":"D:\\Book_Store\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19119401,"external":20635711,"heapTotal":93532160,"heapUsed":60232544,"rss":131784704},"pid":22496,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Book_Store\\bookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Book_Store\\bookStore\\src\\routes\\/index.js:26:10)\n    at Object.<anonymous> (D:\\Book_Store\\bookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Book_Store\\bookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":13,"file":"D:\\Book_Store\\bookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Book_Store\\bookStore\\src\\routes\\/index.js","function":"routes","line":26,"method":null,"native":false},{"column":38,"file":"D:\\Book_Store\\bookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Book_Store\\bookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Book_Store\bookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Book_Store\bookStore\src\routes\/index.js:26:10)
+    at Object.<anonymous> (D:\Book_Store\bookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\Book_Store\bookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\Book_Store\bookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Book_Store\bookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {"date":"Tue Apr 04 2023 13:42:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":20324.437},"process":{"argv":["node","D:\\Book_Store\\bookStore\\src\\index.js"],"cwd":"D:\\Book_Store\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19150294,"external":20667331,"heapTotal":90648576,"heapUsed":70800440,"rss":132616192},"pid":6008,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Book_Store\\bookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Book_Store\\bookStore\\src\\routes\\/index.js:26:10)\n    at Object.<anonymous> (D:\\Book_Store\\bookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Book_Store\\bookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)","trace":[{"column":13,"file":"D:\\Book_Store\\bookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Book_Store\\bookStore\\src\\routes\\/index.js","function":"routes","line":26,"method":null,"native":false},{"column":38,"file":"D:\\Book_Store\\bookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\Book_Store\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Book_Store\\bookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: ::1 - - [04/Apr/2023:08:28:58 +0000] "GET /api/v1/customers HTTP/1.1" 500 280 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:30:27 +0000] "GET /api/v1/customer HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:30:32 +0000] "GET /api/v1/customers HTTP/1.1" 500 280 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:31:12 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 500 59 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:31:41 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 500 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:32:36 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 500 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:33:20 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 500 58 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:37:20 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 500 55 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:37:53 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 500 56 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:38:31 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 397 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:38:55 +0000] "GET /api/v1/customers HTTP/1.1" 500 361 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:56:48 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2023:08:56:59 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:08:57:34 +0000] "GET /api/v1/customers HTTP/1.1" 500 361 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:09:00:28 +0000] "GET /api/v1/customers HTTP/1.1" 500 361 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:09:02:00 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:09:04:29 +0000] "GET /api/v1/customers HTTP/1.1" 500 361 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:44:59 +0000] "GET /api/v1/customers HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:47:50 +0000] "GET /api/v1/customers/addAddress HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:47:56 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:48:12 +0000] "GET /api/v1/customers HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:49:56 +0000] "GET /api/v1/customers HTTP/1.1" 200 66 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:51:12 +0000] "GET /api/v1/customers HTTP/1.1" 200 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:52:33 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:52:44 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:53:06 +0000] "GET /api/v1/customers HTTP/1.1" 200 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:55:35 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 361 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:55:42 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:55:52 +0000] "GET /api/v1/customers HTTP/1.1" 200 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:56:04 +0000] "GET /api/v1/customers HTTP/1.1" 200 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:57:26 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 522 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:57:29 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 683 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:57:56 +0000] "GET /api/v1/customers HTTP/1.1" 200 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:59:33 +0000] "GET /api/v1/customers HTTP/1.1" 200 66 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:10:59:57 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 844 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:00:27 +0000] "GET /api/v1/customers/642c0227328e3550c8098ed1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:00:37 +0000] "GET /api/v1/customers HTTP/1.1" 200 66 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:03:01 +0000] "GET /api/v1/customers/addAddress HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:03:06 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:03:23 +0000] "GET /api/v1/customers HTTP/1.1" 200 66 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:04:06 +0000] "GET /api/v1/customers HTTP/1.1" 200 66 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:11:17 +0000] "GET /api/v1/customers HTTP/1.1" 200 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:13:25 +0000] "GET /api/v1/customers HTTP/1.1" 200 2139 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:17:19 +0000] "GET /api/v1/customers HTTP/1.1" 200 1037 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:27:15 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:27:27 +0000] "GET /api/v1/customers HTTP/1.1" 200 1037 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:29:28 +0000] "POST /api/v1/customers/addAddress HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [04/Apr/2023:11:29:38 +0000] "GET /api/v1/customers HTTP/1.1" 200 1037 "-" "PostmanRuntime/7.31.3"
+

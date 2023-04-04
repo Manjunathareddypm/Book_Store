@@ -196,3 +196,9 @@ info: ::1 - - [03/Apr/2023:17:00:04 +0000] "POST /api/v1/wishlist/removeBook/621
 
 info: ::1 - - [03/Apr/2023:17:00:08 +0000] "POST /api/v1/wishlist/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
 
+info: ::1 - - [03/Apr/2023:17:23:12 +0000] "GET /api/v1/cart HTTP/1.1" 200 618 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:17:31:05 +0000] "POST /api/v1/cart/removeBook/6215893e05253301a4fda5d3 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [03/Apr/2023:17:31:22 +0000] "GET /api/v1/cart HTTP/1.1" 200 617 "-" "PostmanRuntime/7.31.3"
+

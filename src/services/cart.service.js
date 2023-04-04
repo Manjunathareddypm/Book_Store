@@ -117,6 +117,7 @@ export const removeBookFromCart = async (userID,_Id,isAllBooks = false) => {
       } else {
         const bookObj = {};
         bookObj['books.' + i + '.quantity'] = -1;
+        bookObj['books.' + i + '.price'] = -book.price;
         bookObj['cartTotal'] = -book.price;
         newCart = Cart.updateOne({ _id: cart._id }, { $inc: bookObj });
       }
