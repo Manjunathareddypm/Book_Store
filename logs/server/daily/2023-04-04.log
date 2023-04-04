@@ -228,3 +228,45 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T1
 info: Connected to the database. {"timestamp":"2023-04-04T15:03:20.563Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:05:19.387Z"}
 info: Connected to the database. {"timestamp":"2023-04-04T15:05:19.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:14:52.820Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:14:52.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:19:13.958Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:19:13.987Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-04-04T15:20:47.942Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T15:22:41.488Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "PM" fails to match the required pattern: /^[a-z[A-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T15:24:11.675Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "pm" fails to match the required pattern: /^[a-z[A-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T15:24:19.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:30:19.774Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:30:19.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:31:22.569Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:31:22.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:41:39.934Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:41:39.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:47:17.150Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:47:17.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:54:32.702Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:54:32.718Z"}
