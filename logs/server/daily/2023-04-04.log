@@ -1,0 +1,230 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T02:41:13.388Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T02:41:13.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:05:19.458Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:05:19.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:05:40.450Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:05:40.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:05:55.239Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:05:55.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:06:22.716Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:06:22.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:08:48.371Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:08:48.386Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:12:48.719Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:12:55.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:19:39.896Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:19:39.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:27:56.267Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:27:56.301Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to string failed for value "{
+  firstName: 'Belagavi',
+  lastName: 'manjunath',
+  email: '412mreddypm@gmail.com',
+  password: 'abcA1234',
+  userId: '642afb1697a35b2de0fa32ef'
+}" (type Object) at path "userId" for model "Address"
+    at model.Query.exec (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:28:58.912Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to string failed for value "{
+  firstName: 'Belagavi',
+  lastName: 'manjunath',
+  email: '412mreddypm@gmail.com',
+  password: 'abcA1234',
+  userId: '642afb1697a35b2de0fa32ef'
+}" (type Object) at path "userId" for model "Address"
+    at model.Query.exec (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:30:32.888Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullName" is required 
+    url - /api/v1/customers/addAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:31:12.546Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mobileNumber" is required 
+    url - /api/v1/customers/addAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:31:41.005Z"}
+error: 
+    status - 500 
+    message - ValidationError: "type" is required 
+    url - /api/v1/customers/addAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:32:36.469Z"}
+error: 
+    status - 500 
+    message - ValidationError: "address" is required 
+    url - /api/v1/customers/addAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:33:20.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:37:08.476Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:37:08.497Z"}
+error: 
+    status - 500 
+    message - ValidationError: "city" is required 
+    url - /api/v1/customers/addAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:37:20.815Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 199
+    at JSON.parse (<anonymous>)
+    at parse (D:\Book_Store\bookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Book_Store\bookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Book_Store\bookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\Book_Store\bookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Book_Store\bookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/customers/addAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:37:48.090Z"}
+error: 
+    status - 500 
+    message - ValidationError: "state" is required 
+    url - /api/v1/customers/addAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:37:53.019Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to string failed for value "{
+  fullName: 'Manju',
+  mobileNumber: '9008238254',
+  addressType: 'book',
+  address: '1, 2st floor, 3nd cross, 4th main, 5th block, jayanagar',
+  city: 'Bangalore',
+  state: 'Karnataka',
+  userId: '642afb1697a35b2de0fa32ef'
+}" (type Object) at path "userId" for model "Address"
+    at model.Query.exec (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:38:55.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T08:57:26.771Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T08:57:26.787Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to string failed for value "{
+  fullName: 'Manju',
+  mobileNumber: '9008238254',
+  addressType: 'book',
+  address: '1, 2st floor, 3nd cross, 4th main, 5th block, jayanagar',
+  city: 'Bangalore',
+  state: 'Karnataka',
+  userId: '642afb1697a35b2de0fa32ef'
+}" (type Object) at path "userId" for model "Address"
+    at model.Query.exec (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-04T08:57:34.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T09:00:20.537Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T09:00:20.558Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to string failed for value "{
+  fullName: 'Manju',
+  mobileNumber: '9008238254',
+  addressType: 'book',
+  address: '1, 2st floor, 3nd cross, 4th main, 5th block, jayanagar',
+  city: 'Bangalore',
+  state: 'Karnataka',
+  userId: '642afb1697a35b2de0fa32ef'
+}" (type Object) at path "userId" for model "Address"
+    at model.Query.exec (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-04T09:00:28.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T09:01:47.751Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T09:01:47.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T09:04:12.964Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T09:04:12.982Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to string failed for value "{
+  fullName: 'Manju',
+  mobileNumber: '9008238254',
+  addressType: 'book',
+  address: '1, 2st floor, 3nd cross, 4th main, 5th block, jayanagar',
+  city: 'Bangalore',
+  state: 'Karnataka',
+  userId: '642afb1697a35b2de0fa32ef'
+}" (type Object) at path "userId" for model "Address"
+    at model.Query.exec (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store\bookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-04T09:04:29.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:44:38.616Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:44:38.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:49:26.460Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:49:26.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:51:05.049Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:51:05.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:51:46.401Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:51:46.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:52:11.992Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:52:12.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:55:01.023Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:55:01.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:55:18.078Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:55:18.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:57:07.584Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:57:07.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T10:59:17.408Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T10:59:17.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:02:16.118Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:02:16.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:03:55.650Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:03:55.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:10:50.122Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:10:50.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:12:10.484Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:12:10.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:13:16.209Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:13:16.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:17:09.248Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:17:09.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:18:53.021Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:18:53.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T11:29:15.940Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T11:29:15.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:03:20.065Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:03:20.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-04T15:05:19.387Z"}
+info: Connected to the database. {"timestamp":"2023-04-04T15:05:19.451Z"}
